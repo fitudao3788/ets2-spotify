@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>ETS2 Spotify</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css">
+  <style>
+    html, body {
+      height: 100vh;
+    }
+  </style>
+</head>
+<body>
+  <main class="d-flex align-items-center justify-content-center bg-light h-100 w-100 ">
+    <form method="POST" class="container">
+      <div class="text-center mb-4">
+        <h1 class="mb-2">ETS2 Spotify</h1>
+        <p class="text-muted">Please enter the URL you received after logging in to Spotify.</p>
+      </div>
+      <div class="input-group">
+        <input type="url" name="url" id="url" class="form-control" placeholder="http://127.0.0.1:xxxx/login?state=xxxx" required>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

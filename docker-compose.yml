@@ -1,0 +1,11 @@
+services:
+  ets2-spotify:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ets2-spotify
+    ports:
+      - "8000:8000"
+      - "8080:8080"
+    volumes:
+      - ./config:/app/config

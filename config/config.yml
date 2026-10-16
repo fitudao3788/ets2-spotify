@@ -1,0 +1,7 @@
+zeroconf_enabled: false
+credentials:
+  type: interactive
+
+device_name: ETS2 Spotify
+device_type: automobile
+normalisation_disabled: true

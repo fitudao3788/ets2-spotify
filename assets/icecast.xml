@@ -1,0 +1,30 @@
+<icecast>
+    <hostname>ets2-spotify.local</hostname>
+    <location>ETS2</location>
+    <admin>icemaster@ets2-spotify.local</admin>
+    <limits>
+        <burst-on-connect>0</burst-on-connect>
+        <burst-size>0</burst-size>
+        <queue-size>102400</queue-size>
+        <sources>2</sources>
+        <clients>10</clients>
+    </limits>
+    <security>
+        <chroot>0</chroot>
+        <changeowner>
+            <user>icecast2</user>
+            <group>icecast</group>
+        </changeowner>
+    </security>
+    <authentication>
+        <source-password>hackme</source-password>
+        <admin-user>admin</admin-user>
+        <admin-password>hackme</admin-password>
+    </authentication>
+    <listen-socket>
+        <port>8000</port>
+    </listen-socket>
+    <paths>
+        <logdir>/var/log/icecast2</logdir>
+    </paths>
+</icecast>

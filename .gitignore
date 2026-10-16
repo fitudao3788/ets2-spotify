@@ -1,0 +1,18 @@
+# Spotify credentials / runtime state
+config/state.json
+config/lockfile
+
+# Python
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+.venv/
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

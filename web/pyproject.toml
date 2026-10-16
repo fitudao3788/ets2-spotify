@@ -1,0 +1,10 @@
+[project]
+name = "ets2-spotify-web"
+version = "0.1.0"
+description = "Web server for ETS2 Spotify"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "flask>=3.1.3",
+    "httpx>=0.28.1",
+]
